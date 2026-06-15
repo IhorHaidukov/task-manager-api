@@ -1,0 +1,59 @@
+# Task Manager API
+
+REST API for managing tasks.
+
+## Technologies
+
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL
+- Maven
+- Lombok
+- Validation
+- Swagger / OpenAPI
+- Git / GitHub
+
+## Features
+
+- Create task
+- Get all tasks
+- Get task by ID
+- Update task
+- Delete task
+- Search tasks by status
+- Search tasks by title
+- Validation
+- Global exception handling
+
+## API Endpoints
+
+- GET `/tasks`
+- GET `/tasks/{id}`
+- GET `/tasks/status/{status}`
+- GET `/tasks/title/{title}`
+- POST `/tasks`
+- PUT `/tasks/{id}`
+- DELETE `/tasks/{id}`
+
+## Task Status
+
+Available statuses:
+
+- NEW
+- IN_PROGRESS
+- DONE
+
+## Project Structure
+
+Controller → Service → Repository → PostgreSQL
+
+## Swagger
+
+After starting the application, Swagger UI is available at:
+
+`http://localhost:8080/swagger-ui/index.html`
+
+## Author
+
+Ihor Haidukov
