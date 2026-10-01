@@ -14,6 +14,7 @@ global exception handling, and Swagger/OpenAPI documentation.
 - Maven
 - Lombok
 - Validation
+- DTO / Mapper
 - Swagger / OpenAPI
 - Git / GitHub
 
@@ -27,6 +28,7 @@ global exception handling, and Swagger/OpenAPI documentation.
 - Search tasks by status
 - Search tasks by title
 - Validation
+- DTO mapping between entities and API responses
 - Global exception handling
 
 ## API Endpoints
